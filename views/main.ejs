@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sketch Search</title>
+    <!-- Leapstrap -->
+    <link href="/lib/leapstrap.css" rel="stylesheet" media="screen">
+    <!-- jQuery (necessary for Leapstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Leap (http://js.leapmotion.com/) -->
+    <!-- <script src="lib/leap.js"></script> -->
+    <script src="/lib/leap-0.6.4.min.js"></script>
+    <!-- Leapstrap -->
+    <script src="/lib/leapstrap.js"></script>
+    <link rel='stylesheet' href='/css/main.css' />
+</head>
+<body>
+    <div class="wrapper"> 
+        <iframe src="/draw" frameborder="0" width="800" height="600" id="iframe">
+            <p>Your browser does not support iframes.</p>
+        </iframe>
+    </div>
+
+    <button type="button" class="btn leap-interactive">I can be clicked</button>
+
+    <script>LeapManager.init({interactiveSelector:"a",maxCursors:1});</script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

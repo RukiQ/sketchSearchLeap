@@ -1,0 +1,55 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.align-left {
+    width: 500px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    border-right: 2px solid #ccc;
+}
+
+.sketch, #show-obj {
+    height: 50%;
+}
+
+.sketch {
+    border-bottom: 2px solid #ccc;
+}
+
+#show-obj {
+    padding: 18px;
+}
+
+.sketch img {
+    width: 100%;
+    height: 100%;
+}
+
+.retr-result {
+    height: 100%;
+    margin-left: 540px;
+    overflow-y: auto;
+}
+
+.retr-result .box {
+    box-sizing: border-box;
+    /* width: 180px;
+    height: 170px; */
+    width: 17%;
+    height: 23%;
+    margin: 5px;
+}
+
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sketch Search</title>
+    <!-- jQuery (necessary for Leapstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Leap (http://js.leapmotion.com/) -->
+    <script src="/js/lib/leap.js"></script>
+    <!-- <script src="/lib/leap-0.6.4.min.js"></script> -->
+    <link rel='stylesheet' href='/css/draw.css' />
+</head>
+<body>
+    <div class="wrapper"> 
+        <canvas id="canvas"></canvas>
+        <div class="loading"><img src="img/timg-tiny.gif" alt=""></div>
+        <img id="base-img" src="img/tmp.png" style="display: none;"></img>
+
+        <div class="info-box">
+            <p id="fingerPos"><b>手指状态：</b><span>无指向物</span></p>
+            <p id="fingerNum"><b>手指数量：</b><span>0</span></p>
+        </div>
+    </div>
+
+    <script src="/js/app/draw.js"></script>
+</body>
+</html>

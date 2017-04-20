@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sketch Search</title>
+    <link rel='stylesheet' href='/css/upload.css' />
+</head>
+<body>
+
+    <div class="wrap">
+        <div class="sketch">
+            <img src="<%= imgSrc %>" alt="">
+        </div>
+
+        <div class="result">
+            <% for(var i = 0; i < path.length; i++) {%>
+            <img src="<%= path[i] %>" />
+            <% } %>
+        </div>
+    </div>
+    
+</body>
+</html>
