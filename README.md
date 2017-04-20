@@ -10,7 +10,6 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 -   `requirejs` 进行模块化开发
 -   `jQuery` 进行DOM操作
 -   `HTML5 Canvas` 实现画布功能
--   `D3.js` 实现草图可视化
 -   `Three.js` 实现模型展示
 
 ### 环境配置
