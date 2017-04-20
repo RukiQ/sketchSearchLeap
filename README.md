@@ -29,6 +29,8 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
     
     > 注意： 根据 node-gyp 的GitHub显示，请务必保证你的 python 版本介于 2.5.0 和 3.0.0 之间。
 
+- 安装 Leap Motion SDK
+
 ### 目录结构
 
 - /bin
@@ -39,7 +41,6 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 	- /img -------------------------------- 图片文件
 	- /js
 		- /app
-			- main.js --------------------- 主文件
 			- draw.js --------------------- 草图绘画
 			- showResult.js --------------- 模型检索
 			- showObj.js ------------------ 模型展示
@@ -72,7 +73,7 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 
 #### `npm start`
 
-在浏览器输入：`localhost:3000`，并切换至移动模式，则可使用该应用。
+在浏览器输入：`localhost:3000/draw`，并连接上Leap Motion，则可使用该应用。
 
 #### 问题解决
 
