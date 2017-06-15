@@ -4,6 +4,8 @@
 
 A Prototype System of Sketch-Based 3D Model Retrieval Based on Leap Motion
 
+> 说明：本应用除了 Leap Motion 交互部分的代码不同，其余与 sketchSearchMobi 中的部分代码相同。
+
 ### 采用的技术
 
 -  `Node.js` 构建服务器
