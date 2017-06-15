@@ -1,8 +1,8 @@
-# sketchSearchMobi
+# sketchSearchLeap
 
-基于多点触摸的三维模型草图检索原型应用
+基于 Leap Motion 的三维模型草图检索原型应用
 
-A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
+A Prototype System of Sketch-Based 3D Model Retrieval Based on Leap Motion
 
 ### 采用的技术
 
