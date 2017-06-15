@@ -47,7 +47,7 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Leap Motion
 			- showObj.js ------------------ 模型展示
 		- /lib
 		- app.js
-	- /supply（[百度云]()）
+	- /supply
 		- 102_shrec2012png ---------------- 线画图 **（[从百度云上下载]()）**
 		- models -------------------------- obj 格式模型（[模型下载链接](http://pan.baidu.com/s/1mhCTNVq)）
 		- params.json ---------------------- 参数配置
@@ -65,7 +65,7 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Leap Motion
 - imagesearcherdll.dll
 - imagesercherdll.lib
 
-> 注意：静态资源中 `/img` 和 `/supply` 中的图片和模型数据需从[百度云盘]()上进行下载后放置到对应目录中。
+> 注意：静态资源中 `/img` 和 `/supply` 中的图片和模型数据需从[百度云盘]上进行下载后放置到对应目录中。
 
 ### 启动服务
 
