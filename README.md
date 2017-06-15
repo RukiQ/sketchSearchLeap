@@ -39,7 +39,7 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Leap Motion
 - /include -------------------------------- 特征提取算法所需的相关库文件，链接库需要
 - /public
 	- /css -------------------------------- css样式文件
-	- /img -------------------------------- 图片文件（[百度云]()）
+	- /img -------------------------------- 图片文件（[img百度云链接](http://pan.baidu.com/s/1geJPBEV)）
 	- /js
 		- /app
 			- draw.js --------------------- 草图绘画
