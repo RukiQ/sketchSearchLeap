@@ -37,7 +37,7 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 - /include -------------------------------- 特征提取算法所需的相关库文件，链接库需要
 - /public
 	- /css -------------------------------- css样式文件
-	- /img -------------------------------- 图片文件
+	- /img -------------------------------- 图片文件（[百度云](http://pan.baidu.com/s/1c2H0G3A)）
 	- /js
 		- /app
 			- draw.js --------------------- 草图绘画
@@ -45,9 +45,10 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 			- showObj.js ------------------ 模型展示
 		- /lib
 		- app.js
-	- /supply（[百度云]()）
-		- 102_shrec2012png ---------------- 线画图**（[从百度云上下载]()）**
-		- models -------------------------- off 格式模型**（[从百度云上下载]()）**
+	- /supply
+		- 102_shrec2012png ---------------- 线画图 **（[从百度云上下载]()）**
+		- models -------------------------- obj 格式模型 **（[从百度云上下载]()）**
+		- params.json ---------------------- 参数配置
 - /router
 	- index.js ---------------------------- 页面路由，读取txt文件中的路径，并返回
 	- result.txt
@@ -62,7 +63,7 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 - imagesearcherdll.dll
 - imagesercherdll.lib
 
-> 注意：静态资源中 `/img` 和 `/supply` 中的图片和模型数据需从[百度云盘]()上进行下载后放置到对应目录中。
+> 注意：静态资源中 `/img` 和 `/supply` 中的图片和模型数据需从[百度云盘](http://pan.baidu.com/s/1c2H0G3A)上进行下载后放置到对应目录中。
 
 ### 启动服务
 
